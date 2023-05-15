@@ -1,0 +1,231 @@
+.retângulo{
+    position: absolute;
+width: 98.5vw;
+height: 66px;
+left: 0px;
+top: 0px;
+
+background: #19365d8a;
+box-shadow: 7px 7px 4px 4px #646dbf40;
+  }
+
+  .retângulo2{
+    position: absolute;
+width: 98.5vw;
+height: 61px;
+left: 0px;
+top: 87px;
+background: #FFBD59;
+box-shadow: 0px 4px 4px rgba(123, 113, 88, 0.25);
+  }
+
+ .sacola{
+    position: absolute;
+left: 92.99%;
+right: 4.31%;
+top: 3.37%;
+margin-top: 15px;
+
+}
+
+.pessoa{
+    position: absolute;
+left: 96.53%;
+right: 0.76%;
+top: 3.43%;
+margin-top: 15px;
+}
+
+
+  .logo{
+    position: absolute;
+width: 199px;
+height: 124px;
+left: 22px;
+top: 13px;
+margin-bottom: 50px;
+
+background: url(Shine\ 1.png);
+filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+
+.fundo{
+    position: relative;
+}
+
+  .fundosite{
+    width: 100%;}
+    
+
+    *{
+        border: 0;
+        margin: 0;
+        
+    }
+
+ .lista p {
+    position: absolute;
+width: 700px;
+height: 45px;
+left: 443px;
+top: 338px;
+text-align: justify;
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 40px;
+text-align: center;
+margin-left: 50px;
+
+color: #FFFFFF;
+ }  
+
+ .retângulo3{
+    position: absolute;
+width: 620px;
+height: 13px;
+left: 443px;
+top: 375px;
+margin-left: 85px;
+
+background: #fae09ea6;
+border-radius: 70px;
+ }
+
+.saiba{
+    position: absolute;
+width: 290px;
+height: 38.61px;
+left: 666px;
+top: 439px;
+text-align: center;
+}
+
+.retângulo4{
+    position: absolute;
+width: 1510px;
+height: 15px;
+left: -1px;
+top: 767px;
+border-radius: 30px;
+background: #B9C9F1;
+}
+
+.frase {
+    
+text-align: center;
+}
+
+.retângulo5{
+    position: absolute;
+width: 1510px;
+height: 15px;
+left: 4px;
+top: 911px;
+border-radius: 30px;
+background: #B9C9F1;
+}
+
+.lançamento{
+    position: absolute;
+width: 1510px;
+height: 248px;
+left: -1px;
+top: 946px;
+
+background: url(lançamento.png);
+}
+
+.divulgação{
+     display: inline-block;
+        width: 24%;
+        display: flex;
+        box-sizing: border-box;
+}
+
+.coluna{
+    flex: 1;
+    margin-right: 132px;
+}
+
+.nome{
+    text-align: center;
+    font-family: 'Abhaya Libre';
+}
+
+.retângulo6{
+    position: absolute;
+width: 1510px;
+height: 25px;
+left: 0px;
+top: 1594px;
+
+background: rgba(250, 224, 158, 0.65);
+border-radius: 60px;
+}
+
+.title{
+    position: absolute;
+width: 206px;
+height: 166px;
+left: 59px;
+top: 1701px;
+
+font-family: 'Actor';
+font-style: normal;
+font-weight: 400;
+font-size: 70.136px;
+line-height: 84px;
+text-align: center;
+
+color: #EDC4D8;
+}
+
+.sobrenos{
+    position: absolute;
+width: 601px;
+height: 252px;
+left: 29px;
+top: 1885px;
+
+font-family: 'Abhaya Libre';
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 36px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.sobre{
+    position: absolute;
+width: 1510px;
+height: 525px;
+left: 0px;
+top: 1652px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(.jpg);
+}
+
+.retângulo6{
+    position: absolute;
+width: 1510px;
+height: 38px;
+left: -2px;
+top: 2192px;
+
+background: #B9C9F1;
+border-radius: 60px;
+
+}
+
+.local{
+    position: absolute;
+left: 1.11%;
+right: 96.34%;
+top: 330%;
+transform: rotate(-0.67deg);
+}
