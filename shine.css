@@ -76,7 +76,7 @@ font-weight: 700;
 font-size: 26px;
 line-height: 40px;
 text-align: center;
-margin-left: 50px;
+margin-left: -45px;
 
 color: #FFFFFF;
  }  
@@ -87,7 +87,7 @@ width: 620px;
 height: 13px;
 left: 443px;
 top: 375px;
-margin-left: 85px;
+margin-left: -5px;
 
 background: #fae09ea6;
 border-radius: 70px;
@@ -95,16 +95,17 @@ border-radius: 70px;
 
 .saiba{
     position: absolute;
-width: 290px;
+width: 150px;
 height: 38.61px;
-left: 666px;
+left: 654px;
 top: 439px;
 text-align: center;
+
 }
 
 .retângulo4{
     position: absolute;
-width: 1510px;
+width: 1463px;
 height: 15px;
 left: -1px;
 top: 767px;
@@ -119,7 +120,7 @@ text-align: center;
 
 .retângulo5{
     position: absolute;
-width: 1510px;
+width: 1460px;
 height: 15px;
 left: 4px;
 top: 911px;
@@ -129,7 +130,7 @@ background: #B9C9F1;
 
 .lançamento{
     position: absolute;
-width: 1510px;
+width: 1460px;
 height: 248px;
 left: -1px;
 top: 946px;
@@ -138,16 +139,19 @@ background: url(lançamento.png);
 }
 
 .divulgação{
-     display: inline-block;
-        width: 24%;
+     justify-content: space-around;
+        
         display: flex;
         box-sizing: border-box;
+        text-align: center;
+    
 }
 
-.coluna{
+/* .coluna{
     flex: 1;
-    margin-right: 132px;
-}
+    margin-right: 60px;
+    text-align: center;
+} */
 
 .nome{
     text-align: center;
@@ -178,7 +182,7 @@ font-weight: 400;
 font-size: 70.136px;
 line-height: 84px;
 text-align: center;
-
+margin-top: -98px;
 color: #EDC4D8;
 }
 
@@ -195,28 +199,28 @@ font-weight: 400;
 font-size: 26px;
 line-height: 36px;
 text-align: center;
-
+margin-top: -96px;
 color: #FFFFFF;
 
 }
 
 .sobre{
     position: absolute;
-width: 1510px;
+width: 1460px;
 height: 525px;
 left: 0px;
 top: 1652px;
-
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(.jpg);
+margin-top: -100px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
 
 .retângulo6{
     position: absolute;
-width: 1510px;
+width: 1463px;
 height: 38px;
 left: -2px;
 top: 2192px;
-
+margin-top: -110px;
 background: #B9C9F1;
 border-radius: 60px;
 
@@ -226,6 +230,234 @@ border-radius: 60px;
     position: absolute;
 left: 1.11%;
 right: 96.34%;
-top: 330%;
+top: 305%;
 transform: rotate(-0.67deg);
+margin-top: -120px;
+}
+
+.sede{
+    position: absolute;
+width: 154px;
+height: 28px;
+left: 66px;
+top: 2254.26px;
+line-height: 28px;
+text-align: center;
+transform: rotate(-0.84deg);
+ margin-top: -64px;
+}
+
+.rua{
+    position: absolute;
+    width: 829px;
+    height: 23.03px;
+    left: -43px;
+    top: 2303px;
+    margin-top: -60px;
+    font-family: 'Bitter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.4255px;
+    line-height: 23px;
+   text-align: center;
+    color: #000000;
+}
+
+.location{
+    display: inline-block;
+      margin-right: 60px;
+      text-align: center;
+
+}
+
+.loc{
+    text-align: center;
+}
+
+.retângulo7{
+    position: absolute;
+width: 1460px;
+height: 136px;
+left: 0px;
+top: 2714px;
+
+background: #D9D9D9;
+}
+
+.conosco{
+    position: absolute;
+width: 108px;
+height: 22px;
+left: 69px;
+top: 2718px;
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 500;
+font-size: 17.9875px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+.número{
+    position: absolute;
+width: 170px;
+height: 22px;
+left: 71px;
+top: 2747px;
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 400;
+font-size: 17.9875px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.telefone{
+    position: absolute;
+width: 40px;
+height: 18px;
+left: 30px;
+top: 2747px;
+
+}
+.unid{
+    position: absolute;
+width: 200px;
+height: 22px;
+left: 403px;
+top: 2718px;
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 500;
+font-size: 17.9875px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+.mooca{
+    position: absolute;
+width: 530px;
+height: 19px;
+left: 404px;
+top: 2749px;
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 400;
+font-size: 16.1037px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.aricanduva{
+    position: absolute;
+width: 453px;
+height: 19px;
+left: 404px;
+top: 2772px;
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 400;
+font-size: 16.1037px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+}
+.pinheiros{
+    position: absolute;
+width: 436px;
+height: 20px;
+left: 404px;
+top: 2795px;
+
+font-family: 'Bitter';
+font-style: normal;
+font-weight: 400;
+font-size: 16.3387px;
+line-height: 20px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+.retângulo8{
+    position: absolute;
+    width: 1460px;
+    height: 61px;
+    left: 0px;
+    top: 2850px;
+   
+    
+    /* Amarelo */
+    
+    background: #FFBD59;
+    box-shadow: 0px 4px 4px rgba(123, 113, 88, 0.25);
+}
+.retângulo9{
+    position: absolute;
+width: 1460px;
+height: 66px;
+left: 0px;
+top: 2934px;
+
+background: rgba(25, 54, 93, 0.54);
+box-shadow: 7px 7px 4px 4px rgba(100, 109, 191, 0.25);
+
+}
+.insta{
+    position: absolute;
+width: 72px;
+height: 72px;
+left: 3px;
+top: 0px;
+    }
+.face{
+    position: absolute;
+    left: 75px;
+    
+    top: -9px;
+  
+    }
+.twitter{
+    position: absolute;
+    width: 58px;
+    height: 50px;
+    left: 140px;
+    top: 7px;
+      }
+.yt{
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 207px;
+    top: 7px;
+    }
+
+.seta{
+    position: absolute;
+width: 82px;
+height: 63px;
+left: 1358px;
+right: 20px;
+top: 2940px;
+z-index: 7;
 }
